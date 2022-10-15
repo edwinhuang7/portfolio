@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
-import { urlFor, client } from '../../client';
 import './Work.scss'
 
 
