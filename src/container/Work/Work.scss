@@ -1,0 +1,71 @@
+.app__work {
+  width: 100%;
+  flex-direction: column;
+  flex: 1;
+  display:flex;
+}
+
+
+
+.app__full-banner-item {
+  width: 80%;
+  margin: 2rem;
+  margin:auto;
+  display:flex;
+  margin-bottom:8rem;
+
+  @media screen and (max-width: 1200px){
+    flex-direction:column;
+   
+}
+
+
+  .app__full-banner-image {
+    padding:1rem;
+    width:60%;
+    
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+
+      @media screen and (max-width: 1200px){
+        min-width:300px;
+       
+    }
+    }
+  }
+
+  .app__full-banner-text {
+    padding: 5% 5% 1% 1%;
+    width:40%;
+    
+
+    
+    .head-text {
+        color:var(--black-color);
+        text-align:left !important;
+        
+    
+    }
+    .p-text {
+    background-color: white;
+    pointer-events: none;
+    padding:10%;
+    border-radius: 10px;
+    }
+
+    .webLink {
+
+        color:var(--gray-color) !important;
+    }
+
+
+
+    .codeLink {
+      color:var(--gray-color) !important;
+  
+    }
+  }
+}
