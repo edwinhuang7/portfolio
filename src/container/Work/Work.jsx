@@ -9,8 +9,8 @@ import './Work.scss'
 
 const workinfo =[
   {title1: 'Makersplace', description1: 'Marketplace that allows users to upload files for 3d printing and connects them to 3d print makers',imgUrl1: images.work01, webLink1: 'https://www.google.com', codeLink1: 'https://github.com/edwinhuang7/makersplace',
-  title2: 'CS50: Finance', description2: 'Finance is a stock trading application that returns real-time stock prices through integration of an API.',imgUrl2: images.work02, webLink2: 'https://www.google.com', codeLink2: 'https://github.com/edwinhuang7/finance',
-  title3: 'Weather', description3: 'Weather app is a simple application that returns weather data such as temperature, wind speed and humidity.',imgUrl3: images.work03, webLink3: 'https://www.google.com', codeLink3: 'https://github.com/edwinhuang7/weather-app'}
+  title2: 'CS50: Finance', description2: 'Finance is a stock trading application that returns real-time stock prices through integration of an API.',imgUrl2: images.work02, webLink2: 'https://finance-cs50-edwin.herokuapp.com/', codeLink2: 'https://github.com/edwinhuang7/finance',
+  title3: 'Weather', description3: 'Weather app is a simple application that returns weather data such as temperature, wind speed and humidity.',imgUrl3: images.work03, webLink3: 'https://weather-edwin.netlify.app/', codeLink3: 'https://github.com/edwinhuang7/weather-app'}
 ]
 
 
