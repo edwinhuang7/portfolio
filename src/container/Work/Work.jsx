@@ -24,7 +24,7 @@ const Work = () => {
           <p className="bold-text">Featured Project</p>
           <p className="head-text">{workinfo.title1}</p>
           <p className="p-text">{workinfo.description1}</p>
-          <a className="webLink" href={workinfo.webLink1}><AiFillEye fontSize="3em" /></a>
+          {/* <a className="webLink" href={workinfo.webLink1}><AiFillEye fontSize="3em" /></a> */}
           <a className="codeLink" href={workinfo.codeLink1}><AiFillGithub fontSize="3em" /></a>
           </div>
           <motion.div 
