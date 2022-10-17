@@ -22,8 +22,8 @@ const Work = () => {
 
           <div className="app__full-banner-text">
           <p className="bold-text">Featured Project</p>
-          <p className="head-text">{workinfo.title1}</p>
-          <p className="p-text">{workinfo.description1}</p>
+          <p className="head-text ">{workinfo.title1}</p>
+          <p className="p-text p-text-responsive">{workinfo.description1}</p>
           {/* <a className="webLink" href={workinfo.webLink1}><AiFillEye fontSize="3em" /></a> */}
           <a className="codeLink" href={workinfo.codeLink1}><AiFillGithub fontSize="3em" /></a>
           </div>
@@ -31,7 +31,7 @@ const Work = () => {
            whileInView={{ opacity:1 }}
            whileHover= {{ scale:1.05}}
            transition={{ duration: 0.5, type:'tween'}}
-           className="app__full-banner-image">
+           className="app__full-banner-image img-responsive">
            
         
           <img src={workinfo.imgUrl1} alt={workinfo.title1} />
@@ -46,7 +46,7 @@ const Work = () => {
            whileInView={{ opacity:1 }}
            whileHover= {{ scale:1.05}}
            transition={{ duration: 0.5, type:'tween'}}
-           className="app__full-banner-image">
+           className="app__full-banner-image img-responsive">
            
         
           <img src={workinfo.imgUrl2} alt={workinfo.title2} />
@@ -56,7 +56,7 @@ const Work = () => {
            <div className="app__full-banner-text">
            <p className="bold-text">Featured Project</p>
            <p className="head-text">{workinfo.title2}</p>
-           <p className="p-text">{workinfo.description2}</p>
+           <p className="p-text p-text-responsive">{workinfo.description2}</p>
            <a className="webLink" href={workinfo.webLink2}><AiFillEye fontSize="3em" /></a>
            <a className="codeLink" href={workinfo.codeLink2}><AiFillGithub fontSize="3em" /></a>
            </div>
@@ -67,7 +67,7 @@ const Work = () => {
           <div className="app__full-banner-text">
           <p className="bold-text">Featured Project</p>
           <p className="head-text">{workinfo.title3}</p>
-          <p className="p-text">{workinfo.description3}</p>
+          <p className="p-text p-text-responsive">{workinfo.description3}</p>
           <a className="webLink" href={workinfo.webLink3}><AiFillEye fontSize="3em" /></a>
           <a className="codeLink" href={workinfo.codeLink3}><AiFillGithub fontSize="3em" /></a>
           </div>
@@ -75,7 +75,7 @@ const Work = () => {
            whileInView={{ opacity:1 }}
            whileHover= {{ scale:1.05}}
            transition={{ duration: 0.5, type:'tween'}}
-           className="app__full-banner-image">
+           className="app__full-banner-image img-responsive">
            
         
           <img src={workinfo.imgUrl3} alt={workinfo.title3} />
