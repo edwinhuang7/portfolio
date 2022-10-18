@@ -77,7 +77,6 @@
   text-align: center;
   color: var(--black-color);
 
-
   span {
     color: var(--secondary-color);
   }
@@ -101,7 +100,6 @@
     font-size: 1.75rem;
   }
 }
-
 
 .featured-text {
   font-size: 0.8rem;
@@ -182,10 +180,9 @@
 
 .app__navigation {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  margin-top: 300px;
   padding: 1rem;
 
   .app__navigation-dot {
@@ -194,7 +191,6 @@
     border-radius: 50%;
     background-color: #cbcbcb;
     margin: 0.5rem;
-
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
@@ -220,5 +216,5 @@
 }
 
 .no-text-transform {
-  text-transform:none !important;
+  text-transform: none !important;
 }
