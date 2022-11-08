@@ -48,15 +48,12 @@
 
   @media screen and (max-width: 1200px) {
     width: 100%;
-    margin-right: 0rem;
   }
 }
 
 .app__header-badge {
-  justify-content: center;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
   flex-direction: column;
   height: 100%;
 

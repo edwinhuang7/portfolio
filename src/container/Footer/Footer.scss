@@ -1,6 +1,8 @@
 .app__footer {
   margin-top: 6rem;
   z-index: 2;
+  width: 100%;
+  overflow: auto;
 }
 
 .app__footer-cards {
@@ -11,7 +13,7 @@
 }
 
 .app__footer-card-mobile {
-  width: 360px;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -23,6 +25,7 @@
   padding: 10px;
   flex-direction: row;
   align-items: center;
+  overflow: auto;
 
   img {
     width: 50px;
@@ -37,7 +40,7 @@
 }
 
 .app__footer-card-email {
-  width: 360px;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -49,6 +52,7 @@
   padding: 10px;
   flex-direction: row;
   align-items: center;
+  overflow: auto;
 
   img {
     width: 50px;

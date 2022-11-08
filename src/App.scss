@@ -95,10 +95,6 @@
   text-align: left;
   color: var(--gray-color);
   line-height: 1.5;
-
-  @media screen and (min-width: 2000px) {
-    font-size: 1.75rem;
-  }
 }
 
 .featured-text {
@@ -132,6 +128,7 @@
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  position: absolute;
 
   padding: 1rem;
 

@@ -31,6 +31,8 @@ import about06 from '../assets/about06.jpeg';
 import work01 from '../assets/work01.png';
 import work02 from '../assets/work02.png';
 import work03 from '../assets/work03.png';
+import work04 from '../assets/work04.png';
+import work05 from '../assets/work05.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -85,4 +87,6 @@ export default {
   work01,
   work02,
   work03,
+  work04,
+  work05,
 };
