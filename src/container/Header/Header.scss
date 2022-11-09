@@ -57,6 +57,7 @@
   justify-content: flex-end;
   flex-direction: column;
   height: 100%;
+  max-width: 80%;
 
   .badge-cmp,
   .tag-cmp {
@@ -65,7 +66,8 @@
     border-radius: 15px;
     flex-direction: row;
     width: auto;
-    margin-top: 40%;
+    margin-top: 10rem;
+
     position: relative;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
@@ -90,8 +92,7 @@
 
   .tag-cmp {
     flex-direction: column;
-    margin-bottom: 100px;
-    height: 20%;
+    bottom: 160px;
 
     p {
       width: 100%;
