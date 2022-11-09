@@ -10,11 +10,11 @@ const Footer = () => {
     <h3 className="head-text">Lets have a chat over some coffee.</h3>
 
     <div className="app__footer-cards">
-      <div className="app__footer-card-email">
+      <div className=" app__footer-card app__footer-card-email">
         <img src={images.email} alt="email"/>
         <a href="edwin.huang7@gmail.com">edwin.huang7@gmail.com</a>
       </div>
-      <div className="app__footer-card-mobile">
+      <div className=" app__footer-card app__footer-card-mobile">
         <img src={images.mobile} alt="mobile"/>
         <a href="0415560300">0415560300</a>
       </div>

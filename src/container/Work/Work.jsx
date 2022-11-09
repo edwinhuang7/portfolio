@@ -57,13 +57,14 @@ const Work = () => {
               </a>
             </div>
             <motion.div
-              whileInView={{ opacity: 1 }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.5, type: "tween" }}
+               whileInView={{ x: [-150, 0], opacity: [0, 1] }}
+               transition={{ duration: 2 }}
               className="app__full-banner-image img-responsive"
             >
               <img src={block.imgUrl} alt={block.title} />
             </motion.div>
+
+    
           </div>
         </div>
       ))}
