@@ -8,32 +8,28 @@ import "./Work.scss";
 const workinfo = [
   {
     title: "Leap",
-    description:
-      "Responsive landing page designed for desktop and mobile devices.",
+    description: "Responsive landing page designed for desktop and mobile devices.",
     imgUrl: images.work04,
     webLink: "https://leap-test.netlify.app/",
     codeLink: "https://github.com/edwinhuang7/leap",
   },
   {
     title: "Makersplace",
-    description:
-      "Marketplace that allows users to upload files for 3d printing and connects them to 3d print makers",
+    description: "Marketplace that allows users to upload files for 3d printing and connects them to 3d print makers",
     imgUrl: images.work01,
     webLink: "https://makersplace.herokuapp.com/",
     codeLink: "https://github.com/edwinhuang7/makersplace",
   },
   {
     title: "CS50: Finance",
-    description:
-      "Finance is a stock trading application that returns real-time stock prices through integration of an API.",
+    description: "Finance is a stock trading application that returns real-time stock prices through integration of an API.",
     imgUrl: images.work02,
     webLink: "https://finance-cs50-edwin.herokuapp.com/",
     codeLink: "https://github.com/edwinhuang7/finance",
   },
   {
     title: "Javascript30",
-    description:
-      "Javascript is 30 day vanilla Javascript challenge in which the participant completes 30 mini javascript projects in 30 days. ",
+    description: "Javascript is 30 day vanilla Javascript challenge in which the participant completes 30 mini javascript projects in 30 days. ",
     imgUrl: images.work05,
     codeLink: "https://github.com/edwinhuang7/javascript30",
   },
@@ -56,15 +52,9 @@ const Work = () => {
                 <AiFillGithub fontSize="3em" />
               </a>
             </div>
-            <motion.div
-               whileInView={{ x: [-150, 0], opacity: [0, 1] }}
-               transition={{ duration: 2 }}
-              className="app__full-banner-image img-responsive"
-            >
+            <motion.div whileInView={{ x: [-150, 0], opacity: [0, 1] }} transition={{ duration: 2 }} className="app__full-banner-image ">
               <img src={block.imgUrl} alt={block.title} />
             </motion.div>
-
-    
           </div>
         </div>
       ))}
