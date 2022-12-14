@@ -19,11 +19,7 @@ const About = () => {
       </h2>
       <div className="app__profiles">
         {info.map((about, index) => (
-          <motion.div
-          whileInView={{ y: [100, 0], opacity: [0, 1] }}
-            whileHover={{ scale: 1.1 }}
-             transition={{ duration: 2, type: "tween" }}
-              className="app__profile-item" key={about.title + index}>
+          <motion.div whileInView={{ y: [100, 0], opacity: [0, 1] }} whileHover={{ scale: 1.1 }} transition={{ duration: 2, type: "tween" }} className="app__profile-item" key={about.title + index}>
             <img src={about.imgUrl} alt={about.title} />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
@@ -32,9 +28,6 @@ const About = () => {
               {about.description}
             </p>
           </motion.div>
-
-
-
         ))}
       </div>
     </>
@@ -42,4 +35,3 @@ const About = () => {
 };
 
 export default AppWrap(About, "about");
-
